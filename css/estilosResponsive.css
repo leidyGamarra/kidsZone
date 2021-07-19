@@ -1,0 +1,326 @@
+/*Estilo responsive desde pantalla de 1300px*/
+
+@media screen and (max-width:1300px){
+    
+    /*header*/
+
+    .contenido-header>img{
+        width: 500px;
+    }
+    
+    .textos-header{
+        margin: 0;
+    }
+
+    /*titulo*/
+    
+    h1{
+        font-size: 70px;
+    }
+
+    .numbers .number h4{
+        font-size: 30px;
+    }
+
+    /*video*/
+
+    iframe{
+        width: 350px; 
+        height: 200px;
+    }
+
+}
+
+/*Estilo responsive desde pantalla de 1065px*/
+
+@media screen and (max-width:1065px){
+    
+    /*header*/
+
+    .contenido-header>img{
+        width: 450px;
+    }
+    
+    .textos-header{
+        margin: 0;
+    }
+
+    /*titulo*/
+    
+    h1{
+        font-size: 50px;
+    }
+
+    .numbers .number h4{
+        font-size: 26px;
+    }
+
+    /*video*/
+
+    iframe{
+        width: 320px; 
+        height: 190px;
+    }
+}
+
+/*Estilo responsive desde pantalla de 849px*/
+
+@media screen and (max-width:849px){
+
+    /*Header*/
+
+    .enlaces-header .navbar-nav{
+        position: fixed;
+        background: #f79628;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        clip-path: circle(0.0% at 100% 0);
+    }
+
+    .nav .menudos{
+        clip-path: circle(150.0% at 100% 0);
+    }
+
+    .nav .enlaces-header a{
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav .enlaces-header .navbar-nav{
+        padding-top:  80px;
+    }
+
+
+    .hamburguer{
+        display: block;
+    }
+
+    .contenido-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1000px;
+    }
+
+    .contenido-header>img{
+        width: 400px;
+    }
+
+    .textos-header{
+        margin: 0;
+    }
+
+    /*video*/
+
+    iframe{
+        width: 450px; 
+        height: 240px;
+    }
+
+    /*titulos*/
+
+    h1{
+        font-size: 70px;
+    }
+
+    .titulo{
+        font-size: 45px;
+    }
+
+    .numbers .number h4{
+        font-size: 35px;
+    }
+
+    /*icons*/
+
+    .articulo1>i{
+        width: 130px;
+        height: 130px;
+        font-size: 60px;
+    }
+
+    /*about-us*/
+
+    .articulo{
+        width: 45%;
+    }
+
+    /*questions*/
+
+    .questions{
+        height: 720px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .questions>img{
+        width: 400px;
+    }
+
+    /*results*/
+
+    .conten-results{
+        flex-direction: column-reverse;
+    }
+
+    .results-text>a{
+        margin-bottom: 60px;
+    }
+
+    .numbers{
+        width: 100%;
+    }
+
+    .results-text{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    /*services*/
+
+    .services{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .box-skills{
+        margin: 0 0 40px 0;
+    }
+
+    .box-skills h4{
+        width: 500px;
+    }
+
+    .services>img{
+        width: 400px
+    }
+
+    /*footer*/
+
+    footer{
+        justify-content: space-evenly;
+    }
+
+    .partFooter{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+}
+
+/*Estilo responsive desde pantalla de 600px*/
+
+@media screen and (max-width:600px){
+
+    /*titulos*/
+
+    h1{
+        font-size: 45px;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    /*video*/
+
+    iframe{
+        width: 350px; 
+        height: 200px;
+    }
+
+    /*header*/
+
+    .contenido-header{
+        height: 750px;
+    }
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .contenido-header>img{
+        width: 260px;
+    }
+
+    .contenido-header a{
+        width: 250px;
+        height: 69px;
+        margin: 15px 0 0 0;
+    }
+
+    /*icons*/
+
+    .articulo1{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    /*about-us*/
+
+    .articulo{
+        width: 95%;
+    }
+
+    /*questions*/
+
+    .questions>img{
+        width: 200px;
+    }
+
+    /*results*/
+
+    .numbers .number{
+        width: 95%;
+    }
+
+    .results-text h4{
+        font-size: 35px;
+    }
+
+    /*services*/
+
+    .services>img{
+        width: 200px;
+    }
+
+    .box-skills h4{
+        width: 100%;
+    }
+
+    /*footer*/
+
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+}
+
+/*Estilo responsive desde pantalla de 380px*/
+
+@media screen and (max-width:380px) {
+
+    /*titulos*/
+
+    h1{
+        font-size: 35px;
+    }
+
+    /*video*/
+
+    iframe{
+        width: 250px; 
+        height: 190px;
+    }
+
+    /*icons*/
+
+    .articulo1{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}

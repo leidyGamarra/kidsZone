@@ -10,7 +10,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/*Estilo para los titulos*/
+/*---------------------------------------- Estilos para los titulos ----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6{
     color: #1d273b;
@@ -27,7 +27,9 @@ h1{
     text-align: center;
 }
 
-/*Estilo para los contenedores*/
+/*---------------------------------------- Fin de los estilos para los titulos ----------------------------------------*/
+
+/*---------------------------------------- Estilos para los contenedores principales ----------------------------------------*/
 
 .contenedor{
     width: 90%;
@@ -44,7 +46,9 @@ h1{
     padding: 60px 0;
 }
 
-/*Estilo para el header*/
+/*---------------------------------------- Fin de los estilos para los contenedores principales ----------------------------------------*/
+
+/*---------------------------------------- Estilos para el header y el navbar ----------------------------------------*/
 
 header::before{
     content: "";
@@ -134,7 +138,7 @@ nav{
 
 .contenido-header{
     width: 100%;
-    height: 600px;
+    height: 576px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,7 +146,7 @@ nav{
 }
 
 .contenido-header>img{
-    width: 550px;
+    width: 560px;
     animation: ease-in animat 1s;
 }
 
@@ -186,7 +190,9 @@ nav{
     text-transform: capitalize;
 }
 
-/*Estilo para la clase hamburguer*/
+/*---------------------------------------- Fin de los estilos para el header y el navbar ----------------------------------------*/
+
+/*---------------------------------------- Estilos para el navbar hamburguer ----------------------------------------*/
 
 .hamburguer{
     width: 80px;
@@ -203,6 +209,92 @@ nav{
     line-height: 80px;
 }
 
+/*---------------------------------------- Fin de los estilos para el navbar hamburguer ----------------------------------------*/
+
+/*---------------------------------------- Estilos para el aviso de Cookies ----------------------------------------*/ 
+
+.aviso-cookies {
+	display: none;
+	background: #fff;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 60px;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+}
+
+.aviso-cookies.activo {
+	display: block;
+}
+
+.aviso-cookies .galleta {
+	max-width: 100px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo {
+	margin-bottom: 15px;
+}
+
+.aviso-cookies .boton {
+	width: 100%;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.aviso-cookies .boton:hover {
+	background: #000;
+}
+
+.aviso-cookies .enlace {
+	color: #4DBFFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+}
+
+.fondo-aviso-cookies {
+	display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.fondo-aviso-cookies.activo {
+	display: block;
+}
+
+
+/*---------------------------------------- Fin de los estilos para el aviso de Cookies ----------------------------------------*/ 
+
+/*---------------------------------------- Estilos para la sección principal con imagen diviertete ----------------------------------------*/
 
 .img-container{
     width: 100%;
@@ -213,7 +305,9 @@ nav{
     width: 90%;
 }
 
-/* estilos articulo1 */
+/*---------------------------------------- Fin de los estilos para la sección principal con imagen diviertete ----------------------------------------*/
+
+/*---------------------------------------- Estilos para las clases y los contenedores de articulo1 ----------------------------------------*/
 
 .contenedor-articulo1{
     display: flex;
@@ -223,6 +317,8 @@ nav{
     border-bottom: 1px solid rgb(224, 214, 214);
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .articulo1{
@@ -245,7 +341,9 @@ nav{
     box-shadow: 0 8px 32px rgba(223, 213, 208, 0.46);
 }
 
-/*Estilo para la clase results*/
+/*---------------------------------------- Fin de los estilos para las clases y los contenedores de articulo1 ----------------------------------------*/
+
+/*---------------------------------------- Estilos para la clase results y numbers ----------------------------------------*/
 
 .results{
     background: #858688;
@@ -322,7 +420,9 @@ nav{
     border-radius: 5px;
 }
 
-/*Estilo para la clase about*/
+/*---------------------------------------- Fin de los estilos para la clase results y numbers ----------------------------------------*/
+
+/*---------------------------------------- Estilos para el contendor about y los articulos ----------------------------------------*/
 
 .about-us{
     background: #f2f2f2;
@@ -374,7 +474,9 @@ nav{
     padding-bottom: 20px;
 }
 
-/*Questions*/
+/*---------------------------------------- Fin de los estilos para el contendor about y los articulos ----------------------------------------*/
+
+/*---------------------------------------- Estilos para el contendor questions y textos-questions ----------------------------------------*/
 
 .questions{
     height: 600px;
@@ -415,40 +517,10 @@ nav{
     box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 }
 
-
-/*Estilo para la clase services*/
-
-.services{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.services >img {
-    width: 500px;
-}
-
-.box-skills{
-    margin: 30px 30px 0 0;
-}
-
-.box-skills h4{
-    font-size: 24px;
-    background: #f2f2f2;
-    width: 350px; 
-    border-radius: 6px;
-    padding: 10px 0 10px 15px;
-    margin-bottom: 10px;
-}
-
-.box-skills i{
-    color: #1fde82;
-    font-size: 20px;
-}
-
-/*Estilo para el pie de pagina*/
+/*---------------------------------------- Fin de los estilos para el contendor questions y textos-questions ----------------------------------------*/
 
 
+/*---------------------------------------- Estilos para el footer, partFooter y social-media ----------------------------------------*/
 
 footer {
     background: #f2f2f2;
@@ -535,85 +607,8 @@ footer {
     );
 }
 
-/*AVISO COOKIES*/
+/*---------------------------------------- Fin de los estilos para el footer, partFooter y social-media ----------------------------------------*/
 
-.aviso-cookies {
-	display: none;
-	background: #fff;
-	padding: 20px;
-	width: calc(100% - 40px);
-	max-width: 300px;
-	line-height: 150%;
-	border-radius: 10px;
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-	z-index: 100;
-	padding-top: 60px;
-	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
-	text-align: center;
-}
-
-.aviso-cookies.activo {
-	display: block;
-}
-
-.aviso-cookies .galleta {
-	max-width: 100px;
-	position: absolute;
-	top: -50px;
-	left: calc(50% - 50px);
-}
-
-.aviso-cookies .titulo,
-.aviso-cookies .parrafo {
-	margin-bottom: 15px;
-}
-
-.aviso-cookies .boton {
-	width: 100%;
-	background: #595959;
-	border: none;
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	padding: 15px 20px;
-	font-weight: 700;
-	cursor: pointer;
-	transition: .3s ease all;
-	border-radius: 5px;
-	margin-bottom: 15px;
-	font-size: 14px;
-}
-
-.aviso-cookies .boton:hover {
-	background: #000;
-}
-
-.aviso-cookies .enlace {
-	color: #4DBFFF;
-	text-decoration: none;
-	font-size: 14px;
-}
-
-.aviso-cookies .enlace:hover {
-	text-decoration: underline;
-}
-
-.fondo-aviso-cookies {
-	display: none;
-	background: rgba(0,0,0,.20);
-	position: fixed;
-	z-index: 99;
-	width: 100vw;
-	height: 100vh;
-	top: 0;
-	left: 0;
-}
-
-.fondo-aviso-cookies.activo {
-	display: block;
-}
 
 
 

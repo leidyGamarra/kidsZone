@@ -19,4 +19,3 @@ botonAceptarCookies.addEventListener('click', () => {
 
 	dataLayer.push({'event': 'cookies-aceptadas'});
 });
-

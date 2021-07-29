@@ -25,6 +25,7 @@ h1{
 .titulo{
     font-size: 50px;
     text-align: center;
+    font-weight:bold;
 }
 
 /*---------------------------------------- Fin de los estilos para los titulos ----------------------------------------*/
@@ -43,7 +44,8 @@ h1{
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
-    padding: 60px 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 /*---------------------------------------- Fin de los estilos para los contenedores principales ----------------------------------------*/
@@ -146,7 +148,7 @@ nav{
 }
 
 .contenido-header>img{
-    width: 560px;
+    width: 532px;
     animation: ease-in animat 1s;
 }
 
@@ -329,7 +331,6 @@ nav{
 }
 
 .articulo1>img{
-    background: #e06666;
     display: inline-block;
     width: 110px;
     height: 110px;
@@ -338,7 +339,6 @@ nav{
     box-shadow: 0 8px 32px rgba(223, 213, 208, 0.46);
 }
 .articulo1>img{
-    width:110px;
     padding: 10px; ;
 }
 
@@ -433,16 +433,16 @@ nav{
 .contenedor-articulo{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 11px;
     justify-content: space-around;
 }
 
 .articulo{
     width: 29%;
     background: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 11px;
     border-radius: 10px;
-    padding: 45px 30px 60px 30px;
+    padding: 10px 40px 10px 30px;
     transition: 0..5s;
     text-align: center;
 }
@@ -451,10 +451,8 @@ nav{
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }
 
-.articulo>i{
-    font-size: 80px;
-    color: #fff;
-    background: #fdb827;
+.articulo>img{
+    background: #065fd4;
     display: inline-block;
     width: 160px;
     height: 160px;
@@ -462,6 +460,10 @@ nav{
     padding-top: 40px;
     border-radius: 50%;
     box-shadow: 0 8px 32px rgba(165, 161, 153, 0.46);
+}
+
+.articulo>img{
+    padding: 10px;
 }
 
 .articulo>h3{
@@ -481,7 +483,7 @@ nav{
 /*---------------------------------------- Estilos para el contendor questions y textos-questions ----------------------------------------*/
 
 .questions{
-    height: 600px;
+    height: 540px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -507,16 +509,15 @@ nav{
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
-    background: #1fde82;
+    background: #12e47e;
     text-align: center;
     color: #fff;
     padding: 12px 0;
     text-decoration: none;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    text-transform: capitalize;
+    font-weight: bold;
 }
 
 /*---------------------------------------- Fin de los estilos para el contendor questions y textos-questions ----------------------------------------*/
@@ -525,13 +526,14 @@ nav{
 /*---------------------------------------- Estilos para el footer, partFooter y social-media ----------------------------------------*/
 
 footer {
-    background: #f2f2f2;
+    background: #dddddd;
     padding: 60px 0;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
+
 }
 
 .partFooter {
